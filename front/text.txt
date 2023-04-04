@@ -1,0 +1,11 @@
+        <Box>
+            {
+                navData.map(row=>
+                <Box>
+                    <img src={row.url}/>
+                    <h5>{row.text}</h5>
+                </Box>                    
+
+                    )
+            }
+        </Box>
